@@ -1,1 +1,10 @@
 # VADER-Sentiment-Analysis
+
+Simple NLTK Python project for analyzing sentiment behind a customer review. 
+Use nltk.download('vader_lexicon') to download VADER Lexicon
+
+Reviews.csv contains reviews from Amazon customers.
+
+Tokenizes comment text and uses SentimentIntensityAnalyzer to classify text as negative, neutral, or positive.
+
+CComment is decided to be positive/negative based on overall score being over/under +-0.3.
