@@ -7,7 +7,7 @@ Reviews.csv contains reviews from Amazon customers.
 
 Tokenizes comment text and uses SentimentIntensityAnalyzer to classify text as negative, neutral, or positive.
 
-CComment is decided to be positive/negative based on overall score being over/under +-0.3.
+Comment is decided to be positive/negative based on overall score being over/under +-0.3.
 
 # cURL download - Reviews.csv
  #!/bin/bash
